@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.master.cs" Inherits="Mine.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>NLT World</title>
+    <!-- Stylesheets -->
+
+    <link href="assets/css/mine.css" rel="stylesheet" />
+    <link href="assets/css/jQueryUI/jquery-ui.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <!-- Scripts -->
+    <script src="assets/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script src="assets/js/jquery-1.10.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="assets/js/mine.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="body" runat="server">
+            </asp:ContentPlaceHolder> 
+      <%--      <footer class="container custom-footer">
+            Nhori Lopchan Tamang <i class="fa fa-copyright"></i> <label class="current-year"></label> 
+        </footer>--%>
+        </div>
+        
+       
+    </form>
+</body>
+</html>
