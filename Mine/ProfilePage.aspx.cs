@@ -13,5 +13,10 @@ namespace Mine
         {
 
         }
+
+        protected void btnAspNetApplication_OnClick(object sender, EventArgs e)
+        {
+            Response.Redirect("ASPNET.aspx", true);
+        }
     }
 }

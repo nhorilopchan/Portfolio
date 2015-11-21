@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mine", "Mine\Mine.csproj", "{CEAB82C2-A8A0-47C1-BBCA-C3E42849D13A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mine.Businesslogic", "Mine.Businesslogic\Mine.Businesslogic.csproj", "{6CF508F4-EFD3-4887-A46A-95E033F64439}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mine.Databaselogic", "Mine.Databaselogic\Mine.Databaselogic.csproj", "{9F9E2DBC-B099-468A-8E24-F3BD5AF42C42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{CEAB82C2-A8A0-47C1-BBCA-C3E42849D13A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEAB82C2-A8A0-47C1-BBCA-C3E42849D13A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEAB82C2-A8A0-47C1-BBCA-C3E42849D13A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF508F4-EFD3-4887-A46A-95E033F64439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF508F4-EFD3-4887-A46A-95E033F64439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF508F4-EFD3-4887-A46A-95E033F64439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF508F4-EFD3-4887-A46A-95E033F64439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9E2DBC-B099-468A-8E24-F3BD5AF42C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9E2DBC-B099-468A-8E24-F3BD5AF42C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9E2DBC-B099-468A-8E24-F3BD5AF42C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9E2DBC-B099-468A-8E24-F3BD5AF42C42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

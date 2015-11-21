@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ASP.NET\EmployeeProfile.aspx" />
     <Content Include="assets\images\boudha_panorama.jpg" />
     <Content Include="assets\css\bootstrap\dist\css\bootstrap-theme.css" />
     <Content Include="assets\css\bootstrap\dist\css\bootstrap-theme.min.css" />
@@ -102,10 +103,18 @@
     <Content Include="assets\js\modernizr-2.6.2-respond-1.1.0.min.js" />
     <Content Include="Cover.aspx" />
     <Content Include="Home.aspx" />
+    <Content Include="index.html" />
     <Content Include="ProfilePage.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ASP.NET\EmployeeProfile.aspx.cs">
+      <DependentUpon>EmployeeProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASP.NET\EmployeeProfile.aspx.designer.cs">
+      <DependentUpon>EmployeeProfile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Cover.aspx.cs">
       <DependentUpon>Cover.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -272,7 +281,12 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Mine.Businesslogic\Mine.Businesslogic.csproj">
+      <Project>{6cf508f4-efd3-4887-a46a-95e033f64439}</Project>
+      <Name>Mine.Businesslogic</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
